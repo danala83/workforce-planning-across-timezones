@@ -30,13 +30,6 @@ This mockup shows how to use data + optimization to:
 - `notebook/` (recommended)
   - Your Jupyter notebook (`.ipynb`) with the full workflow.
 
-### Outputs (optional but nice for recruiters)
-- `outputs/`
-  - Excel workbook (tables)
-  - PDF report
-  - Heatmap charts
-  - CSV exports
-
 ---
 
 ## Process (what the notebook does)
@@ -51,8 +44,8 @@ This mockup shows how to use data + optimization to:
 
 ---
 
-### 2) Team + schedule templates (4-day workweek + time zones)
-- Simulates a team (Advocates + Leads) across multiple time zones.
+### 2) Team + schedule templates (4-day workweek & time zones)
+- Simulates a team (Advocates & Leads) across multiple time zones.
 - Generates possible schedule templates that follow rules like:
   - 4 working days/week
   - 3 days off/week
@@ -102,26 +95,6 @@ This mockup shows how to use data + optimization to:
 
 📈 Chart produced:
 - **Deflection rate vs surplus agent-hours**
-
----
-
-### 7) Export outputs (Excel/PDF/CSVs)
-The notebook exports:
-- CSV files (required coverage, schedules, blocks, what-if table)
-- Excel workbook (all tables in one file)
-- PDF report (with charts)
-
----
-
-## Key charts (optional to show in README)
-
-If you uploaded images into `outputs/`, you can show them here:
-
-### Heuristic schedule: Capacity − Required
-![Heuristic Heatmap](outputs/heuristic_capacity_minus_required.png)
-
-### Optimized schedule (MILP): Capacity − Required
-![Optimized Heatmap](outputs/optimized_capacity_minus_required.png)
 
 ---
 
